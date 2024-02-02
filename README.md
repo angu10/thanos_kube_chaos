@@ -40,7 +40,7 @@ config.load_kube_config()
 
 ```
 # Import necessary modules
-from thanos_kube_chaos import KubeManager
+from thanos_kube_chaos.kube_manager import KubeManager
 
 # Example: Creating a KubeManager instance with a list of namespaces
 kube_manager = KubeManager(namespaces=['namespace1', 'namespace2'])

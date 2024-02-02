@@ -1,0 +1,3 @@
+kubernetes==28.1.0
+psutil==5.9.7
+socket.py==0.1.0

@@ -39,8 +39,8 @@ We welcome pull requests! Follow these steps to submit a pull request:
 4. Write tests for your changes (if applicable).
 5. Run the tests:
 
-    ```bash
-    make test
+    ```
+    python -m unittest unit_test
     ```
 
 6. Commit your changes:

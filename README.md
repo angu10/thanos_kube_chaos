@@ -5,6 +5,35 @@ Thanos Kube Chaos is an open-source chaos engineering tool designed to induce co
 ## Overview
 Thanos Kube Chaos leverages the Kubernetes Python client to interact with the cluster, offering features such as pod deletions, service deletions, node evictions, network latency injection, and simulated disk I/O chaos. The tool aims to provide a comprehensive testing framework for Kubernetes, enabling users to proactively identify and address vulnerabilities in their systems.
 
+## Features
+# List Pods:
+Retrieve the names of pods in specified namespaces.
+# List Running Pods:
+Retrieve the names of running pods in specified namespaces.
+# Delete Pod:
+Delete a specific pod in a given namespace.
+# Delete Random Running Pod:
+Delete a randomly selected running pod, optionally matching a regex pattern.
+# Delete Services:
+Delete all services in specified namespaces.
+# Delete Nodes:
+Delete specific nodes from the Kubernetes cluster.
+# Network Chaos Testing:
+Simulate network chaos by introducing latency to a specified network interface.
+# Resource Limit Configuration:
+Set resource limits (CPU and memory) for a specific pod in a given namespace.
+# Node Eviction:
+Trigger the eviction of a specific node from the cluster.
+# Execute Command in Pod:
+Run a command inside a specific pod in a given namespace.
+# Simulate Disk I/O Chaos:
+Simulate high disk I/O for a specific pod by creating a test file.
+# Retrieve Pod Volumes:
+Retrieve the volumes attached to a specific pod in a given namespace.
+# Starve Pod Resources:
+Starve resources (CPU and memory) for a randomly selected running pod.
+
+
 ### Clone the repository:
 
 ```

@@ -40,7 +40,7 @@ We welcome pull requests! Follow these steps to submit a pull request:
 5. Run the tests:
 
     ```
-    python -m unittest unit_test
+    python -m unittest unit_test/unit_test.py
     ```
 
 6. Commit your changes:
